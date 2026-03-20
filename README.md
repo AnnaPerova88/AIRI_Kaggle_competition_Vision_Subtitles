@@ -23,7 +23,7 @@ A text transcription of the speech (English).
 **Evaluation metric**
 * Submissions are evaluated with Word Error Rate (WER):
 
-**WER** = (total word-level edit distance between your predictions and the reference) / (total number of reference words).
-**Lower is better**. A score of 0.0 means a perfect match with the ground truth.
+* **WER** = (total word-level edit distance between your predictions and the reference) / (total number of reference words).
+* **Lower is better**. A score of 0.0 means a perfect match with the ground truth.
 * Predictions are normalized (lowercasing, collapsing whitespace) before comparison. Rows are matched by the path column.
 
